@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "mugshoter"
+version = "0.1.0"
+description = ""
+authors = ["zaidejaz <zaidejaz521@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+bs4 = "^0.0.2"
+python-dotenv = "^1.0.1"
+boto3 = "^1.35.14"
+pillow = "^10.4.0"
+sqlalchemy = {extras = ["asyncio"], version = "^2.0.34"}
+opencv-python = "^4.10.0.84"
+numpy = "^2.1.1"
+openai = "^1.44.1"
+setuptools = "^74.1.2"
+psycopg2-binary = "^2.9.9"
+flask = "^3.0.3"
+supabase = "^2.7.4"
+fake-useragent = "^1.5.1"
+gunicorn = "^23.0.0"
+gevent = "^24.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
